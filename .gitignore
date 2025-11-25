@@ -3,7 +3,7 @@ package-lock.json
 node_modules/
 npm-debug.log*
 cdk.context.json
-
+mytoken.txt
 # CDK asset staging directory
 .cdk.staging
 cdk.out
