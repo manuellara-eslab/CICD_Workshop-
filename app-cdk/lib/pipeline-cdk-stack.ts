@@ -42,12 +42,12 @@ export class PipelineCdkStack extends Stack {
       actions: [
         new codepipeline_actions.CodeStarConnectionsSourceAction({
           actionName: "GitHub",
-          owner: "{{manuellara-eslab}}",
+          owner: "manuellara-eslab",
           repo: "CICD_Workshop",
           output: sourceOutput,
           branch: "main",
           connectionArn:
-            "{{arn:aws:codeconnections:us-east-1:700298696536:connection/274f0b9f-9558-4309-bd84-1965b3fbe877}}",
+            "arn:aws:codeconnections:us-east-1:700298696536:connection/274f0b9f-9558-4309-bd84-1965b3fbe877",
         }),
       ],
     });
